@@ -18,7 +18,7 @@ export function MainContent() {
 
       <div>
         <div className="flex-1 flex justify-center">
-          <img src={perfilft} alt="" className="w-60 md:w-96 rounded-full shadow-lg object-cover" />
+          <img src="https://github.com/luanhts.png" alt="" className="w-60 md:w-96 rounded-full shadow-lg object-cover" />
         </div>
       </div>
     </section>

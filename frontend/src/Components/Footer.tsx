@@ -1,4 +1,9 @@
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedinIn,
+} from "react-icons/fa";
 
 export function Footer() {
   return (
@@ -14,13 +19,17 @@ export function Footer() {
         <a href="#" aria-label="Twitter" className="hover:text-[#00A8CC]">
           <FaTwitter />
         </a>
-        <a href="#" aria-label="LinkedIn" className="hover:text-[#00A8CC]">
+        <a
+          href="https://www.linkedin.com/luan-henrique-ts"
+          aria-label="LinkedIn"
+          className="hover:text-[#00A8CC]"
+        >
           <FaLinkedinIn />
         </a>
       </div>
 
       {/* Copyright */}
-      <p className="text-sm text-[#21243D]">&copy;2020 All rights reserved</p>
+      <p className="text-sm text-[#21243D]">&copy;2025 All rights reserved</p>
     </footer>
   );
 }
