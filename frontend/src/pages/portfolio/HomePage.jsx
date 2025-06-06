@@ -42,7 +42,7 @@ const HomePage = () => {
                 <Github size={32} />
               </motion.a>
               <motion.a 
-                href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer"
+                href="https://linkedin.com/in/luanhenriquets" target="_blank" rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, rotate: -5 }}
                 className="text-muted-foreground hover:text-primary dark:hover:text-accent transition-colors"
               >
