@@ -1,7 +1,7 @@
 import "./App.css";
 import { MainContent } from "./Components/MainContent";
 import { NavBar } from "./Components/NavBar";
-import { SectionTwo } from "./Components/SectionTwo";
+import { SectionTwo } from "./Components/aaSectionTwo";
 import { SectionThree } from "./Components/SectionThree";
 import { Footer } from "./Components/Footer";
 
