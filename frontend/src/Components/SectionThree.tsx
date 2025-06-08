@@ -1,3 +1,5 @@
+import  perfil  from "../assets/imgs/perfilft.png"
+
 export function SectionThree() {
   return (
     <section className="px-4 md:px-20 py-16 bg-white">
@@ -9,7 +11,7 @@ export function SectionThree() {
         {/* Card 1 */}
         <div className="flex flex-col md:flex-row gap-6 border-b pb-10">
           <img
-            src="/path/to/image1.jpg"
+            src={perfil}
             alt="Designing Dashboards"
             className="w-full md:w-64 h-auto rounded-md object-cover"
           />
@@ -32,7 +34,7 @@ export function SectionThree() {
         {/* Card 2 */}
         <div className="flex flex-col md:flex-row gap-6 border-b pb-10">
           <img
-            src="/path/to/image2.jpg"
+            src={perfil}
             alt="Vibrant Portraits of 2020"
             className="w-full md:w-64 h-auto rounded-md object-cover"
           />
@@ -55,7 +57,7 @@ export function SectionThree() {
         {/* Card 3 */}
         <div className="flex flex-col md:flex-row gap-6">
           <img
-            src="/path/to/image3.jpg"
+            src={perfil}
             alt="36 Days of Malayalam type"
             className="w-full md:w-64 h-auto rounded-md object-cover"
           />
