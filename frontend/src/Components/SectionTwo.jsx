@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Database, Palette, TerminalSquare, Zap } from 'lucide-react';
+import { Code, Database, Palette, Zap } from 'lucide-react';
 
 const skillsData = [
   {
@@ -25,7 +25,7 @@ const skillsData = [
   }
 ];
 
-export function SectionTwo (){
+export function SectionTwo() {
   const sectionVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -36,7 +36,12 @@ export function SectionTwo (){
 
   const cardVariants = {
     hidden: { opacity: 0, y: 30, scale: 0.95 },
-    visible: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.5, ease: "easeOut" } }
+    visible: {
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      transition: { duration: 0.5, ease: "easeOut" }
+    }
   };
 
   const skillTagVariants = {
@@ -45,7 +50,7 @@ export function SectionTwo (){
   };
 
   return (
-    <section id="skills" className="py-16 sm:py-24 bg-secondary">
+    <section id="skills" className="py-16 sm:py-24 bg-[#f7f9fb]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -54,11 +59,12 @@ export function SectionTwo (){
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-center mb-12 sm:mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl font-semibold text-foreground">Minhas Habilidades</h2>
-          <p className="text-base sm:text-lg text-muted-foreground mt-3 max-w-xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#1f1f1f]">Minhas Habilidades</h2>
+          <p className="text-base sm:text-lg text-gray-500 mt-3 max-w-xl mx-auto">
             Um resumo das tecnologias e ferramentas que utilizo para criar soluções incríveis.
           </p>
         </motion.div>
+
         <motion.div 
           className="grid md:grid-cols-2 lg:grid-cols-2 gap-8"
           variants={sectionVariants}
@@ -70,12 +76,20 @@ export function SectionTwo (){
             <motion.div
               key={index}
               variants={cardVariants}
-              className="bg-card p-6 sm:p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
+              whileHover={{
+                scale: 1.03,
+                boxShadow: "0 12px 24px rgba(0, 0, 0, 0.1)"
+              }}
+              transition={{ type: "spring", stiffness: 300, damping: 20 }}
+              className="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-gray-200"
             >
               <div className="flex items-center mb-5">
-                <span className="p-2.5 bg-primary/10 rounded-md mr-4">{categoryItem.icon}</span>
-                <h3 className="text-xl sm:text-2xl font-semibold text-foreground">{categoryItem.category}</h3>
+                <span className="p-2.5 bg-pink-100 rounded-md mr-4 text-pink-600">
+                  {categoryItem.icon}
+                </span>
+                <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">{categoryItem.category}</h3>
               </div>
+
               <motion.ul 
                 className="flex flex-wrap gap-2"
                 variants={{ visible: { transition: { staggerChildren: 0.07 }}}}
@@ -84,7 +98,7 @@ export function SectionTwo (){
                   <motion.li
                     key={skillIndex}
                     variants={skillTagVariants}
-                    className="bg-primary/15 text-primary text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full"
+                    className="bg-pink-100 text-pink-600 text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full"
                   >
                     {skill}
                   </motion.li>
@@ -96,4 +110,4 @@ export function SectionTwo (){
       </div>
     </section>
   );
-};
+}
