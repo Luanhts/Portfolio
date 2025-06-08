@@ -1,4 +1,3 @@
-import perfilft from "../assets/imgs/perfilft.png";
 
 export function MainContent() {
   return (
