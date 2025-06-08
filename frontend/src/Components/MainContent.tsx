@@ -1,7 +1,7 @@
 
 export function MainContent() {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center md:items-start justify-center gap-12 m-6 md:m-24">
+    <section id="Home" className="flex flex-col-reverse md:flex-row items-center md:items-start justify-center gap-12 m-6 md:m-24 pt-24">
       <div className="flex-1 text-left md:text-left text-[#21243D] max-w-xl">
         <h1 className="font-bold text-4xl md:text-5xl leading-tight mb-4">
           Olá, me chamo Luan

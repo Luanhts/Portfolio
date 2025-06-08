@@ -5,7 +5,7 @@ import {
 
 export function Footer() {
   return (
-    <footer className="py-10 flex flex-col items-center justify-center text-[#21243D]">
+    <footer id="Contato" className="py-10 flex flex-col items-center justify-center text-[#21243D]">
       {/* Ícones sociais */}
       <div className="flex space-x-6 mb-4 text-2xl text-[#21243D]">
         <a href="https://github.com/Luanhts" aria-label="GitHub" className="hover:text-[#00A8CC]">

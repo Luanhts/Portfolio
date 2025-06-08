@@ -2,7 +2,7 @@ import projectImg2 from "../assets/imgs/project-img2.png"
 
 export function SectionThree() {
   return (
-    <section className="px-4 md:px-20 py-16 bg-white">
+    <section id="Projetos" className="px-4 md:px-20 py-16 bg-white">
       <h1 className="text-3xl font-semibold text-[#21243D] mb-12 text-center md:text-center">
         Meus Projetos
       </h1>

@@ -49,7 +49,7 @@ export function SectionTwo() {
   };
 
   return (
-    <section id="skills" className="py-16 sm:py-24 bg-[#F2F5F7]">
+    <section id="Skills" className="py-16 sm:py-24 bg-[#F2F5F7]">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
