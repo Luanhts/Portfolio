@@ -2,16 +2,19 @@
 export function MainContent() {
   return (
     <section className="flex flex-col-reverse md:flex-row items-center md:items-start justify-center gap-12 m-6 md:m-24">
-      <div className="flex-1 text-center md:text-left text-[#21243D] max-w-xl">
+      <div className="flex-1 text-left md:text-left text-[#21243D] max-w-xl">
         <h1 className="font-bold text-4xl md:text-5xl leading-tight mb-4">
           Olá, me chamo Luan
         </h1>
-        <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-lg mx-auto">
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam
-  eligendi odio recusandae quaerat nesciunt quidem, eum excepturi
-  doloribus commodi id dolore, at eaque dignissimos dicta possimus
-  dolores sit enim.
+        <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-lg">
+  Atualmente sou desenvolvedor de software na MondeLuxe, sou apaixonado por tecnologia e inovação.  
+  Curso Engenharia de Software e atuo na criação de aplicações web com foco em interfaces modernas, boa experiência do usuário e performance no backend.  
+  <br />  
+  <br/>
+  Seja bem-vindo ao meu portfólio! 🚀
 </p>
+
+
       </div>
 
       <div>
