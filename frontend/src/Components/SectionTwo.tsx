@@ -1,26 +1,26 @@
 import { motion } from 'framer-motion';
-import { Code, Database, Palette, Zap } from 'lucide-react';
+import { Code, Database, Zap, Terminal } from 'lucide-react';
 
 const skillsData = [
   {
     category: "Frontend",
     icon: <Code size={28} className="#FF4C61" />,
-    skills: ["React", "JavaScript (ES6+)", "HTML5", "CSS3", "TailwindCSS", "Framer Motion", "Vite"]
+    skills: ["React","Typescript","JavaScript (ES6+)", "PHP","VueJS","Bootstrap", "HTML5", "CSS3",]
   },
   {
     category: "Backend",
-    icon: <Database size={28} className="#FF4C61" />,
-    skills: ["Node.js", "Express.js", "REST APIs", "Python (Basic)", "Supabase (Learning)"]
+    icon: <Terminal size={28} className="#FF4C61" />,
+    skills: ["Node.js", "Express.js", "REST APIs", "Python"]
   },
   {
-    category: "Design & Ferramentas",
-    icon: <Palette size={28} className="#FF4C61" />,
-    skills: ["Figma", "UI/UX Principles", "Responsive Design", "Git & GitHub", "VS Code", "shadcn/ui"]
+    category: "Bancos de Dados",
+    icon: <Database size={28} className="#FF4C61" />,
+    skills: ["PostgreSQL", "MySql", "MongoDB", "FireBase"]
   },
   {
     category: "Outras Habilidades",
     icon: <Zap size={28} className="#FF4C61" />,
-    skills: ["Metodologias Ágeis", "Resolução de Problemas", "Comunicação", "Aprendizado Contínuo"]
+    skills: ["Metodologias Ágeis", "Resolução de Problemas", "Comunicação", "Aprendizado Contínuo",]
   }
 ];
 
