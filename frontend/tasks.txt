@@ -1,0 +1,3 @@
+[] Ajustar rotas da navbar
+[] Ajustar tecnologias
+[] Ajustar projetos e suas imgs

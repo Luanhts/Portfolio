@@ -1,8 +1,6 @@
 import {
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
   FaLinkedinIn,
+  FaGithub,
 } from "react-icons/fa";
 
 export function Footer() {
@@ -10,17 +8,12 @@ export function Footer() {
     <footer className="py-10 flex flex-col items-center justify-center text-[#21243D]">
       {/* Ícones sociais */}
       <div className="flex space-x-6 mb-4 text-2xl text-[#21243D]">
-        <a href="#" aria-label="Facebook" className="hover:text-[#00A8CC]">
-          <FaFacebookF />
+        <a href="https://github.com/Luanhts" aria-label="GitHub" className="hover:text-[#00A8CC]">
+          <FaGithub />
         </a>
-        <a href="#" aria-label="Instagram" className="hover:text-[#00A8CC]">
-          <FaInstagram />
-        </a>
-        <a href="#" aria-label="Twitter" className="hover:text-[#00A8CC]">
-          <FaTwitter />
-        </a>
+       
         <a
-          href="https://www.linkedin.com/luan-henrique-ts"
+          href="https://www.linkedin.com/in/luanhenriquets/"
           aria-label="LinkedIn"
           className="hover:text-[#00A8CC]"
         >
