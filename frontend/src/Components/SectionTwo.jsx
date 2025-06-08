@@ -5,22 +5,22 @@ import { Code, Database, Palette, Zap } from 'lucide-react';
 const skillsData = [
   {
     category: "Frontend",
-    icon: <Code size={28} className="text-primary" />,
+    icon: <Code size={28} className="#FF4C61" />,
     skills: ["React", "JavaScript (ES6+)", "HTML5", "CSS3", "TailwindCSS", "Framer Motion", "Vite"]
   },
   {
     category: "Backend",
-    icon: <Database size={28} className="text-primary" />,
+    icon: <Database size={28} className="#FF4C61" />,
     skills: ["Node.js", "Express.js", "REST APIs", "Python (Basic)", "Supabase (Learning)"]
   },
   {
     category: "Design & Ferramentas",
-    icon: <Palette size={28} className="text-primary" />,
+    icon: <Palette size={28} className="#FF4C61" />,
     skills: ["Figma", "UI/UX Principles", "Responsive Design", "Git & GitHub", "VS Code", "shadcn/ui"]
   },
   {
     category: "Outras Habilidades",
-    icon: <Zap size={28} className="text-primary" />,
+    icon: <Zap size={28} className="#FF4C61" />,
     skills: ["Metodologias Ágeis", "Resolução de Problemas", "Comunicação", "Aprendizado Contínuo"]
   }
 ];
@@ -84,7 +84,7 @@ export function SectionTwo() {
               className="bg-white p-6 sm:p-8 rounded-xl shadow-sm border border-gray-200"
             >
               <div className="flex items-center mb-5">
-                <span className="p-2.5 bg-pink-100 rounded-md mr-4 text-pink-600">
+                <span className="p-2.5 bg-[#FFE5E5] rounded-md mr-4 text-[#FF4C61]">
                   {categoryItem.icon}
                 </span>
                 <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">{categoryItem.category}</h3>
@@ -95,14 +95,14 @@ export function SectionTwo() {
                 variants={{ visible: { transition: { staggerChildren: 0.07 }}}}
               >
                 {categoryItem.skills.map((skill, skillIndex) => (
-                  <motion.li
-                    key={skillIndex}
-                    variants={skillTagVariants}
-                    className="bg-pink-100 text-pink-600 text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full"
-                  >
-                    {skill}
-                  </motion.li>
-                ))}
+  <motion.li
+    key={skillIndex}
+    variants={skillTagVariants}
+    className="bg-[#FFE5E5] text-[#FF4C61] text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full"
+  >
+    {skill}
+  </motion.li>
+))}
               </motion.ul>
             </motion.div>
           ))}
