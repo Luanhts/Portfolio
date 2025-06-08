@@ -1,4 +1,4 @@
-import  perfil  from "../assets/imgs/perfilft.png"
+import perfil from "../assets/imgs/perfilft.png"
 
 export function SectionThree() {
   return (
