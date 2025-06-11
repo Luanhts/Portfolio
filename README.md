@@ -18,6 +18,3 @@ Este é o repositório do meu **portfólio pessoal**, desenvolvido com **React**
 - Seção sobre mim com minha trajetória e habilidades
 - Seção de contato com formulário funcional e redes sociais
 - Layout responsivo e compatível com dispositivos móveis
-
-## 📂 Estrutura de Pastas
-
