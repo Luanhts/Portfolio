@@ -15,11 +15,17 @@ function App() {
         <Route
           path="/"
           element={
-            <>
-              <MainContent />
-              <SectionTwo />
-              <ProjectsPage />
-            </>
+            <div className="pt-24">
+              <section id="Home">
+                <MainContent />
+              </section>
+              <section id="Skills">
+                <SectionTwo />
+              </section>
+              <section id="Projetos">
+                <ProjectsPage />
+              </section>
+            </div>
           }
         />
         <Route path="/projeto/:id" element={<ProjectDetailPage />} />
