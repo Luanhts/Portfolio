@@ -1,17 +1,30 @@
-import "./App.css";
-import { MainContent } from "./Components/MainContent";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { NavBar } from "./Components/NavBar";
-import { SectionTwo } from "./Components/SectionTwo";
-import { SectionThree } from "./Components/SectionThree";
 import { Footer } from "./Components/Footer";
+import { MainContent } from "./Components/MainContent";
+import { SectionTwo } from "./Components/SectionTwo";
+import { ProjectsPage } from "./pages/ProjectsPage.tsx";
+import { ProjectDetailPage } from "./pages/ProjectDetailPage.tsx";
 
 function App() {
   return (
-    <div className="">
+    <div>
       <NavBar />
-      <MainContent />
-      <SectionTwo />
-      <SectionThree />
+
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <MainContent />
+              <SectionTwo />
+              <ProjectsPage />
+            </>
+          }
+        />
+        <Route path="/projeto/:id" element={<ProjectDetailPage />} />
+      </Routes>
+
       <Footer />
     </div>
   );
