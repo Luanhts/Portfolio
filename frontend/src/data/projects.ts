@@ -8,7 +8,8 @@ export const projects = [
     category: "Gestão",
     mainImage: projectImg2,
     description:
-      "Sistema completo de gestão para franquias com integração com APIs e relatórios avançados.",
+      `Sistema completo de gestão para franquias, com integração a APIs e relatórios avançados.\n
+      Por motivos de confidencialidade e privacidade da empresa, este projeto não está disponível para visualização.`,
     fullDescription:
       "Este projeto foi desenvolvido com foco em performance, UX e integração com múltiplas APIs, como TiendaNube. Ideal para gerenciamento de vendas, cashback e estoque.\n\nImplementa autenticação JWT, painel administrativo e upload de imagens com marca d’água.",
     technologies: ["Vue.js", "Node.js", "PostgreSQL", "S3", "JWT"],
