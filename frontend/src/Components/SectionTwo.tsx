@@ -5,7 +5,7 @@ const skillsData = [
   {
     category: "Frontend",
     icon: <Code size={28} className="#FF4C61" />,
-    skills: ["React","Typescript","JavaScript (ES6+)", "PHP","VueJS","Bootstrap", "HTML5", "CSS3",]
+    skills: ["Angular", "React","Typescript","JavaScript (ES6+)", "PHP","VueJS","Bootstrap", "HTML5", "CSS3",]
   },
   {
     category: "Backend",
