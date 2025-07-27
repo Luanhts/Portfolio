@@ -7,7 +7,7 @@ export function MainContent() {
           Olá, me chamo Luan
         </h1>
         <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-lg">
-  Atualmente sou desenvolvedor de software na MondeLuxe, sou apaixonado por tecnologia e inovação.  
+  Atualmente sou estagiário em desenvolvimento Front End na Sicredi, sou apaixonado por tecnologia e inovação.  
   Curso Engenharia de Software e atuo na criação de aplicações web com foco em interfaces modernas, boa experiência do usuário e performance no backend.  
   <br />  
   <br/>

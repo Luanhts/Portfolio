@@ -15,11 +15,11 @@ function App() {
         <Route
           path="/"
           element={
-            <div className="pt-24">
+            <div >
               <section id="Home">
                 <MainContent />
               </section>
-              <section id="Skills">
+              <section id="Skills" className="scroll-mt-15">
                 <SectionTwo />
               </section>
               <section id="Projetos" className="scroll-mt-15">
