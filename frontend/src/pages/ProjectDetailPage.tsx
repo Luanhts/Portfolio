@@ -1,4 +1,4 @@
-import * as React from "react";
+
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useParams, useNavigate } from "react-router-dom";
