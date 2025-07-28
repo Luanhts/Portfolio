@@ -10,7 +10,7 @@ export function ProjectDetailPage() {
 
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
-  const [selectedImage, setSelectedImage] = useState<number>(0);
+  /*const [selectedImage, setSelectedImage] = useState<number>(0);*/
 
   const project = projects.find((p) => p.id === parseInt(id || "0"));
   
